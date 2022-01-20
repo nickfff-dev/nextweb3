@@ -1,0 +1,148 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url("/images/bg-gradient.png");
+  background-size: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* background: none;
+-webkit-backdrop-filter: saturate(180%) blur(20px);
+backdrop-filter: saturate(180%) blur(20px) !important; */
+
+.navbar-bluer .navbars {
+  padding: 0 50px 0 30px;
+}
+
+/* .navbar-bluer {
+  backdrop-filter: saturate(180%) blur(20px) !important;
+  background: rgba(10, 28, 63, 0.1) !important;
+}
+
+.navbar-normal {
+  background-color: #1f3f80 !important;
+} */
+
+/* for mobile screen  */
+@media (max-width: 500px) {
+  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    animation: none !important;
+  }
+}
+
+.vertical-timeline-element-content {
+  padding-top: 9px !important;
+}
+
+.vertical-timeline-element-icon svg {
+  background: #010711 !important;
+}
+
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed),
+.accordion-button:focus {
+  background-color: transparent !important;
+  color: white !important;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.nav-items {
+  z-index: 999;
+}
+
+.accordion-button::after {
+  background-image: url("../public/Group\ 791.svg") !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../public/Line\ 13.svg") !important;
+}
+
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "INF";
+  src: url("../font/INF.ttf");
+  font-display: swap;
+}
+
+* {
+  font-family: "INF", sans-serif;
+}
+
+.accordion-button::after {
+  content: "";
+  position: absolute;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  color: red;
+  right: 0;
+}
+
+.navbars .dashboard:hover {
+  transition: 0.2s;
+  background-color: #0000 !important;
+  color: #fff !important;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  margin-left: -18px;
+}
+
+.navbars .menu-container a {
+  font-weight: 500 !important;
+}
+.accordion-button:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+.dashboard span {
+  background-color: #010711 !important;
+}
+
+.splide__slide {
+  filter: opacity(0.3);
+  transform: scale(0.9);
+  transition: all ease-in-out 0.5s !important;
+}
+
+.splide__slide.is-active {
+  filter: opacity(1);
+  transform: scale(1.1) !important;
+  transition: all ease-in-out 0.5s !important;
+  border: none !important;
+  box-sizing: border-box !important;
+  z-index: 50;
+  padding-right: 10px !important;
+}
+
+.splide__slide.is-active .splide__slide-inner {
+  border: none !important;
+}
+
+.splide__slide.is-active p {
+  display: block !important;
+}
